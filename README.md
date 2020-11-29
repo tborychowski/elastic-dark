@@ -12,6 +12,10 @@ This just extends Roundcube's Elastic skin with some dark theme colours.
   git clone https://github.com/tborychowski/elastic-dark.git
   ```
 2. Change the skin in `Settings/Interface` to `Elastic Dark`.
+3. For login screen to work, you also need to update the `roundcube/config/config.inc.php` with:
+  ```php
+  $config['skin'] = 'elastic-dark';
+  ```
 
 
 ## Credits
