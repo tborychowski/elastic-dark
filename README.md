@@ -7,6 +7,7 @@ This just extends Roundcube's Elastic skin with some dark theme colours.
 
 
 ## Installation
+0. Make sure you have `Elastic` skin installed (it's part of the Roundcube now, so it should be there, but just in case).
 1. In your `roundcube/skins` folder run this:
   ```sh
   git clone https://github.com/tborychowski/elastic-dark.git
