@@ -701,6 +701,12 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 	margin: 0 0 0 20px;
 }
 
+
+/* ENFORCE DARK EMAIL BODY */
+.iframe #layout-content #message-content { background-color: inherit; color: inherit; }
+.iframe #layout-content #message-content * { background-color: inherit !important; color: inherit !important; background-image: none !important; }
+
+
 @media(min-width: 481px) {
 
 	/* SIDE PANEL */
@@ -757,6 +763,7 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 		border-color: var(--new-blue-1);
 	}
 }
+
 
 @media(min-width: 769px) {
 
@@ -819,6 +826,7 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 		border-top-color: var(--new-black-2);
 	}
 }
+
 
 @media(min-width: 1025px) {
 
