@@ -705,7 +705,8 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 /* ENFORCE DARK EMAIL BODY */
 .iframe #layout-content #message-content { background-color: inherit; color: inherit; }
 .iframe #layout-content #message-content * { background-color: inherit !important; color: inherit !important; background-image: none !important; }
-
+.iframe img[src="program/resources/blocked.gif"] { filter: brightness(0.4) saturate(0); }
+.iframe img { filter: brightness(0.6); }
 
 @media(min-width: 481px) {
 
