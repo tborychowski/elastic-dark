@@ -708,6 +708,18 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 .iframe img[src="program/resources/blocked.gif"] { filter: brightness(0.4) saturate(0); }
 .iframe img { filter: brightness(0.6); }
 
+.mce-toolbar-grp .mce-ico { color: var(--new-white-1); }
+.mce-toolbar-grp .mce-btn:hover { background: var(--new-blue-1); border-color: var(--new-blue-1); }
+.mce-toolbar-grp .mce-btn-group:not(:first-child) { border-left-color: #666; }
+
+
+/* round contact pictures */
+#contactpic,
+#contactpic img { width: 128px; height: 128px; max-width: 128px; max-height: 128px; }
+#contactpic { background: var(--new-black-3); border-radius: 50%; box-shadow: 0 1px 3px #000; }
+
+
+
 @media(min-width: 481px) {
 
 	/* SIDE PANEL */
