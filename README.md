@@ -37,7 +37,7 @@ $config['skin'] = 'elastic-dark';
 
 #### 4. Emails with `!important` inline styles
 Unfortunately that seems to require a manual edit to one of the RC core php files (or a js plugin that would fix that).
-For the former solution open `roundcube/program/steps/mail/func.inc` and in `rcmail_html4inline` function add an entry to the `$replace` array: `'/!important/' => '',`, so that it looks like this:
+For the former solution open `roundcube/program/steps/mail/func.inc` and in `rcmail_html4inline` function add an entry to the `$replace` array: `'/!important/' => '',` (around line 1113), so that it looks like this:
 ```php
     $replace = array(
         // add comments around html and other tags
