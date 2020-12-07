@@ -8,7 +8,7 @@ This just extends Roundcube's Elastic skin with some dark theme colours.
 
 ## Installation
 
-#### 0. Make sure you have `Elastic` skin installed 
+#### 0. Make sure you have `Elastic` skin installed
 It's part of the Roundcube now, so it should be there, but just in case.
 This only extends the Elastic skin, by adding some additional css, but requires the base to be installed.
 
@@ -34,6 +34,28 @@ For login screen to work, you also need to update the `roundcube/config/config.i
 ```php
 $config['skin'] = 'elastic-dark';
 ```
+
+#### 4. Emails with `!important` inline styles
+Unfortunately that seems to require a manual edit to one of the RC core php files (or a js plugin that would fix that).
+For the former solution open `roundcube/program/steps/mail/func.inc` and in `rcmail_html4inline` function add an entry to the `$replace` array: `'/!important/' => '',`, so that it looks like this:
+```php
+    $replace = array(
+        // add comments around html and other tags
+        '/(<!DOCTYPE[^>]*>)/i'          => '<!--\\1-->',
+        '/(<\?xml[^>]*>)/i'             => '<!--\\1-->',
+        '/(<\/?html[^>]*>)/i'           => '<!--\\1-->',
+        '/(<\/?head[^>]*>)/i'           => '<!--\\1-->',
+        '/(<title[^>]*>.*<\/title>)/Ui' => '<!--\\1-->',
+        '/(<\/?meta[^>]*>)/i'           => '<!--\\1-->',
+        // quote <? of php and xml files that are specified as text/html
+        '/<\?/' => '&lt;?',
+        '/\?>/' => '?&gt;',
+        '/!important/' => '',
+    );
+```
+
+#### 5. Composing HTML emails (TinyMCE editor)
+Unfortunately this is out of control for a skin and (if it's even possible) would require a hacky plugin. The best way would be to create a dark theme for TinyMCE.
 
 
 ## Credits

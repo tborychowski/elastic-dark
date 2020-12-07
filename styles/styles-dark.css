@@ -707,6 +707,7 @@ html:not(.touch) .listing.focus:not(.withselection) tbody tr.focused > td.select
 .iframe #layout-content #message-content * { background-color: inherit !important; color: inherit !important; background-image: none !important; }
 .iframe img[src="program/resources/blocked.gif"] { filter: brightness(0.4) saturate(0); }
 .iframe img { filter: brightness(0.6); }
+.iframe #layout-content #message-content .rcmBody { background: transparent !important;  }
 
 .mce-toolbar-grp .mce-ico { color: var(--new-white-1); }
 .mce-toolbar-grp .mce-btn:hover { background: var(--new-blue-1); border-color: var(--new-blue-1); }
