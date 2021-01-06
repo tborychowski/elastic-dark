@@ -53,7 +53,7 @@ For the former solution open `roundcube/program/steps/mail/func.inc` and in `rcm
         '/!important/' => '',
     );
 ```
-
+Unfortunately, this needs to be re-applied after every update of the Roundcube.
 
 ## Credits
 The whole css has been "borrowed" from [Skorpion/roundcube-elastic-dark](https://github.com/Skorpion/roundcube-elastic-dark) (with some small tweaks).
