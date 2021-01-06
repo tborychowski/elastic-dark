@@ -76,9 +76,10 @@ i.mce-i-checkbox {
 .message-part span.sig,
 .form-control::placeholder,
 .custom-control-input:disabled ~ .custom-control-label,
-#login-footer {
-	color: var(--new-white-2);
-}
+#login-footer { color: var(--new-white-2); }
+
+.file-upload.droptarget.hover { background-color: var(--new-black-4); }
+
 .btn-secondary:hover,
 .btn-primary.disabled,
 .btn-primary:disabled,
