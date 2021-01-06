@@ -54,9 +54,6 @@ For the former solution open `roundcube/program/steps/mail/func.inc` and in `rcm
     );
 ```
 
-#### 5. Composing HTML emails (TinyMCE editor)
-Unfortunately this is out of control for a skin and (if it's even possible) would require a hacky plugin. The best way would be to create a dark theme for TinyMCE.
-
 
 ## Credits
 The whole css has been "borrowed" from [Skorpion/roundcube-elastic-dark](https://github.com/Skorpion/roundcube-elastic-dark) (with some small tweaks).

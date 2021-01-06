@@ -119,7 +119,7 @@ html.layout-phone .popover:not(.select-menu) .listing li:last-child {
 .popover .menu .dropbutton a.dropdown:hover,
 .popover .menu .dropbutton:not(.disabled):hover,
 .mce-menu-item.mce-menu-item-preview.mce-active:hover {
-	background-color: var(--new-blue-1);
+	background-color: var(--new-blue-1) !important;
 }
 .btn:focus,
 .btn-danger:focus,
@@ -210,7 +210,7 @@ html.layout-phone .popover:not(.select-menu) .listing li:last-child {
 #layout > div > .header a.button,
 #messagestack .alert-warning > i.icon:before,
 p.image-attachment span {
-	color: var(--new-white-1);
+	color: var(--new-white-1) !important;
 }
 #messagestack div,
 #messagestack .loading,
