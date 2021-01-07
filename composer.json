@@ -3,6 +3,7 @@
     "type": "roundcube-plugin",
     "keywords": [ "skin", "dark" ],
     "description": "Elastic-dark skin for Roundcube",
+    "homepage": "https://github.com/tborychowski/elastic-dark",
     "license": "GPL-3.0-or-later",
     "require": {
         "php": ">=7.4"
