@@ -1,0 +1,7 @@
+{
+    "name": "tborychowski/elastic-dark",
+    "description": "Elastic-dark skin for Roundcube",
+    "require": {
+        "php": ">=7.4"
+    }
+}
