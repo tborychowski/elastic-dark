@@ -1,7 +1,15 @@
 {
     "name": "tborychowski/elastic-dark",
+    "type": "roundcube-plugin",
+    "keywords": [ "skin", "dark" ],
     "description": "Elastic-dark skin for Roundcube",
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": ">=7.4"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "1.3.0"
+        }
     }
 }
