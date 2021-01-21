@@ -26,10 +26,15 @@
 		<script src="/deps/less.min.js" data-env="development"></script>
 	<roundcube:else />
 		<link rel="stylesheet" href="/styles/styles.css">
-		<link rel="stylesheet" href="/styles/styles-dark.css">
+		<link rel="stylesheet" href="/styles/styles-dark.css" id="stylesheet-dark" >
 		<roundcube:link rel="stylesheet" href="/styles/print.css" condition="env:action == 'print'" />
 	<roundcube:endif />
 	<script>var rcmail_editor_settings = {content_css: "skins/elastic-dark/styles/oxide-dark.css"};</script>
+	<style>
+		.message-toggle-dark::before {content: "\f6c3";}
+		.message-toggle-light::before {content: "\f185";}
+	</style>
+	<script src="/message-light-mode.js"></script>
 </head>
 <body class="task-<roundcube:exp expression="env:error_task ?: env:task ?: 'error'"> action-<roundcube:exp expression="asciiwords(env:action, true, '-') ?: 'none'">">
 	<roundcube:if condition="!env:framed || env:extwin" />

@@ -1,7 +1,7 @@
 elastic-dark
 ============
 
-This just extends Roundcube's Elastic skin with some dark theme colours.
+This just extends Roundcube's [Elastic skin](https://github.com/roundcube/roundcubemail/tree/master/skins/elastic) with some dark theme colours.
 
 ![](https://raw.githubusercontent.com/Skorpion/roundcube-elastic-dark/master/assets/mail-7.png)
 
