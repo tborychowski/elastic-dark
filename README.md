@@ -25,6 +25,12 @@ mv elastic-dark-master elastic-dark
 ```
 **Please note:** you may need to use `sudo` for some commands, depending on your setup.
 
+**RoundCube v1.5-beta** introduced some small template changes, so to get the compatible skin version, please check-out the `v1.5-beta` branch of this repo (run this after `git clone...`):
+```sh
+git checkout v1.5-beta
+```
+
+
 
 #### 2. Update your Settings
 Change the skin in Roundcube's `Settings/User Interface` to `Elastic Dark`.
