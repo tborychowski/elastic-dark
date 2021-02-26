@@ -33,6 +33,9 @@ a:hover {
 	color: var(--new-blue-4);
 }
 
+
+.special-buttons .theme.dark { display: none; }
+
 /* COMBINED STYLES */
 
 .mce-tabs,
