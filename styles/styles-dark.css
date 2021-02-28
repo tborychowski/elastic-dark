@@ -584,6 +584,35 @@ select:-moz-focusring {
 	border-left: 5px solid var(--new-blue-1);
 }
 
+
+
+.recipient-input a.button.icon { color: var(--new-white-2); }
+.tox .tox-toolbar-overlord > div { background: var(--new-black-2) !important; }
+.tox .tox-split-button svg,
+.tox .tox-swatches__picker-btn svg,
+.tox .tox-tbtn svg { fill: var(--new-white-1) !important; }
+
+.tox .tox-dialog,
+.tox .tox-menu { background-color: var(--new-black-2) !important; border-color: var(--new-black-1) !important;; }
+.tox .tox-collection__item-checkmark,
+.tox .tox-collection__item-icon,
+.tox .tox-collection__item-label { color: var(--new-white-1) !important; }
+.tox .tox-collection--list .tox-collection__item--enabled,
+.tox .tox-collection--list .tox-collection__item--active { background-color: var(--new-blue-1) !important;; }
+
+.tox .tox-tbtn { color: var(--new-white-1) !important; }
+.tox .tox-tbtn--enabled,
+.tox .tox-tbtn--enabled:hover,
+.tox .tox-tbtn:hover { background-color: var(--new-blue-1) !important; }
+
+.tox .tox-split-button:focus,
+.tox .tox-split-button:hover { box-shadow: none !important; background: var(--new-blue-1); }
+
+.tox .tox-dialog__header,
+.tox .tox-dialog__footer { background-color: var(--new-black-2) !important; }
+.tox .tox-dialog__title { color: var(--new-white-1) !important; }
+
+
 /* MESSAGES */
 
 .attachmentslist {
